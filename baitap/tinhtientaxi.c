@@ -16,8 +16,8 @@ int main()
     {
         tong=(((sokm-5)*10000)+16000+48000)*1.05;
     }
+     
     
-    
-    printf("so tien can phan tra la: %d",tong);
+    printf("so tien can phan tra la : %d",tong);
     return 0;
 }
