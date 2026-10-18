@@ -10,7 +10,7 @@ int main ()
     {
         printf("vui long nhap lai so khac\n");
     }
-    else if (sogoc/2 == 0 && sogoc/5 == 0)
+    else if (sogoc%10 == 0 )
     {
         printf("%d la so tron chuc", sogoc);
     }

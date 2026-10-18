@@ -14,10 +14,7 @@ int main()
     {
         printf("vui long nhap lai");
     }
-    else if (sonam == 1)
-    {
-        printf("so tien nhan duoc sau %d la %.2f",sonam, tiengoc*1.05);
-    }else if (sonam >= 2)
+    else 
     {
         tiengoc = tiengoc * pow(1.05,sonam);
         printf("so tien nhan duoc sau %d la %.2f",sonam, tiengoc);
