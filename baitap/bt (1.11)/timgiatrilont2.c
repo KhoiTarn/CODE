@@ -17,7 +17,7 @@ int main()
         }
         else
         {
-            if (lt2 = -1|| a[lt2] < a[i])
+            if (lt2 == -1|| a[lt2] < a[i])
             {
                 lt2 = i;
             }

@@ -13,7 +13,7 @@ int main()
 
         if (a[i] % 2 == 0 )
         {
-            if (ln = -1 || a[ln] < a[i])
+            if (ln == -1 || a[ln] < a[i])
             {
                 ln = i;
             }
